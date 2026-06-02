@@ -1,0 +1,980 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.76f1 (6f7f9e1c9e8a) revision 7307166'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 15666 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-khali" at "2026-06-01T22:38:31.7651129Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-01T22:38:31Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.76f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/khali/Trapiche-VR/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57007
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/khali/Trapiche-VR/My project
+C:/Users/khali/Trapiche-VR/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20952]  Target information:
+
+Player connection [20952]  * "[IP] 26.95.149.33 [Port] 0 [Flags] 2 [Guid] 4153464307 [EditorId] 4153464307 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8FHRTDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20952]  * "[IP] 172.29.48.1 [Port] 0 [Flags] 2 [Guid] 4153464307 [EditorId] 4153464307 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8FHRTDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20952]  * "[IP] 172.23.112.1 [Port] 0 [Flags] 2 [Guid] 4153464307 [EditorId] 4153464307 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8FHRTDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20952]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4153464307 [EditorId] 4153464307 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8FHRTDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20952]  * "[IP] 192.168.100.91 [Port] 0 [Flags] 2 [Guid] 4153464307 [EditorId] 4153464307 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-8FHRTDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20952] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20952] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 42.72 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.76f1 (6f7f9e1c9e8a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.76f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/khali/Trapiche-VR/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   32.0.21043.10005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.76f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.76f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.76f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.76f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003978 seconds.
+- Loaded All Assemblies, in  0.420 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 768ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (148ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (293ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              1495e252288549a7a3fc2e5e49c663cb
+  Correlation Id:          f63e12fbeeeb430a05fb6d82bc0322fb
+  External correlation Id: 4227654925824475762
+  Machine Id:              6azSdTVnt/AtVd9YhDCEEdZ1aM8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-khali" (connect: 0.00s, validation: 0.00s, handshake: 1.37s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-khali-notifications" at "2026-06-01T22:38:33.1384692Z"
+[Licensing::Module] Licensing Background thread has ended after 1.37s
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674204511592-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.905 seconds
+Refreshing native plugins compatible for Editor in 11.21 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 11.73 ms, found 10 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.829 seconds
+Domain Reload Profiling: 1726ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (613ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (189ms)
+			BuildScriptInfoCaches (70ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (829ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.15 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6900 unused Assets / (5.1 MB). Loaded Objects now: 7584.
+Memory consumption went from 131.2 MB to 126.0 MB.
+Total: 10.776900 ms (FindLiveObjects: 0.815900 ms CreateObjectMapping: 0.412800 ms MarkObjects: 5.906800 ms  DeleteObjects: 3.639800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.81 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6889 unused Assets / (5.3 MB). Loaded Objects now: 7603.
+Memory consumption went from 129.6 MB to 124.2 MB.
+Total: 13.668200 ms (FindLiveObjects: 0.935600 ms CreateObjectMapping: 0.716300 ms MarkObjects: 5.497600 ms  DeleteObjects: 6.515500 ms)
+
+Prepare: number of updated asset objects reloaded= 5
+========================================================================
+Received Import Request.
+  Time since last request: 1414955.908554 seconds.
+  path: Assets/Textures/Roof/RoofingTiles014A_2K-PNG
+  artifactKey: Guid(8c5844a6244f80242a6b5671823cb7ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures/Roof/RoofingTiles014A_2K-PNG using Guid(8c5844a6244f80242a6b5671823cb7ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61731ae5684919f1b577eb522da38764') in 0.2403239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ALP_Assets
+  artifactKey: Guid(c85d0f38beb4da34da22ae2c5b75bc7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets using Guid(c85d0f38beb4da34da22ae2c5b75bc7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0948409fcd7d2bc6afe1dfa1f1fc03a') in 0.0154299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/MaterialPipelineHandler.cs
+  artifactKey: Guid(e7883133e628dff4a86f50c082f77055) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/MaterialPipelineHandler.cs using Guid(e7883133e628dff4a86f50c082f77055) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7290fd4c8d1d77e994350e0f6a392a7') in 0.068597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_FenceChained/TEXTURA
+  artifactKey: Guid(5809c892499f18b42bea103dd45d7e92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets_FenceChained/TEXTURA using Guid(5809c892499f18b42bea103dd45d7e92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b42e0c03f6a232992717405c6431c131') in 0.0154319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Roof/RoofingTiles014A_2K-PNG/RoofingTiles014A_2K-PNG_Color.png
+  artifactKey: Guid(268c5729af70eb74dab8e24d73152220) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures/Roof/RoofingTiles014A_2K-PNG/RoofingTiles014A_2K-PNG_Color.png using Guid(268c5729af70eb74dab8e24d73152220) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c51fa6eeb53066a59e4ac22699c6c15') in 0.0988309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines/Pine_C/Textures/Pine_C_Billboard_Extra.png
+  artifactKey: Guid(ae83a700454dbcb40989d58ab622554e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines/Pine_C/Textures/Pine_C_Billboard_Extra.png using Guid(ae83a700454dbcb40989d58ab622554e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '648c7cc6a757edca86b0f7df58bf0767') in 0.0338007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Cypress_Forest_Desktop_Subsurface.tif
+  artifactKey: Guid(9129b4cd529fd7b45832fb67467c70ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Cypress_Forest_Desktop_Subsurface.tif using Guid(9129b4cd529fd7b45832fb67467c70ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8c652daf36f0911f2785c9ad4320cd2') in 0.0280731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Cypress_Forest_Desktop_Color.tif
+  artifactKey: Guid(cf1ec094e4846ce4a80157b947bff0c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Cypress_Forest_Desktop_Color.tif using Guid(cf1ec094e4846ce4a80157b947bff0c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fb2181be06425e15e9209cf4b92efbe') in 0.0290141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.png
+  artifactKey: Guid(f4d685236ef56ef41a4ddef00508a2c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.png using Guid(f4d685236ef56ef41a4ddef00508a2c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af9c162f571e56bc271d0cae23a463ea') in 0.0290653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_TallDouble.fbx
+  artifactKey: Guid(9c30d06babd009546a717f60cfa802fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_TallDouble.fbx using Guid(9c30d06babd009546a717f60cfa802fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf9cd1ab19ed07997b7f57dd483abc40') in 0.0713058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/asfalto.mat
+  artifactKey: Guid(a1197f7d4e53fce4bab0be85e07cff13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/asfalto.mat using Guid(a1197f7d4e53fce4bab0be85e07cff13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bed3fe137b5059f8571acfebec0ea89') in 0.0452659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '550005969a5e007cbb577b85ea5cbfa3') in 0.0926519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials/Conifer_Branches.mat
+  artifactKey: Guid(6ed8d863fa4e4ee4db27ac197ce98d99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials/Conifer_Branches.mat using Guid(6ed8d863fa4e4ee4db27ac197ce98d99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b9e10abb299aa164f1d4106e24302a0') in 0.0543945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/GUI/Editor/ALP8310_ShaderDrawers.cs
+  artifactKey: Guid(93ef24e38f9792b47af164170da6820f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/GUI/Editor/ALP8310_ShaderDrawers.cs using Guid(93ef24e38f9792b47af164170da6820f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a312108b159eb1aaf7a83b76b11e4c56') in 0.0203532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/InGameMenu.unity
+  artifactKey: Guid(67312eb918f9e204d82fea2e747c8d93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/InGameMenu.unity using Guid(67312eb918f9e204d82fea2e747c8d93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bfc48d0ce0c6a28eb0773c93e517007') in 0.0167159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainDemoScene_URP
+  artifactKey: Guid(ef858b2787f10ec41be9432b748839a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP using Guid(ef858b2787f10ec41be9432b748839a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ce739fe1210f2f29572130bca3c71d5') in 0.015189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5001f8e218ef08b50409961001216e24') in 0.0140619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(2e92e0c5fb399ea4f8bd55fc8557e75e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures using Guid(2e92e0c5fb399ea4f8bd55fc8557e75e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3f856b1fdc6a99319f109d5e3bd0c3b') in 0.0119133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures
+  artifactKey: Guid(4bd9d28c5520daa4996e3052965fb01e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures using Guid(4bd9d28c5520daa4996e3052965fb01e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c146e36200ca7e83a1de6cf66716d37') in 0.0138507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/chamine/Bricks070_2K-PNG/Bricks070_2K-PNG_Color.png
+  artifactKey: Guid(53145b1447f4c1441b4495f367e6775e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures/chamine/Bricks070_2K-PNG/Bricks070_2K-PNG_Color.png using Guid(53145b1447f4c1441b4495f367e6775e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e607b4e97608552c0bf2bee5cbf9b864') in 0.0252024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TerrainDemoScene_URP/Scripts
+  artifactKey: Guid(ec3fa74b5af6129499b03bc4c2e0a83d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Scripts using Guid(ec3fa74b5af6129499b03bc4c2e0a83d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db06ef0789503aabd0533e5b538d1884') in 0.0185802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/ToggleComponentZone.cs
+  artifactKey: Guid(5fe39fdeebcc91a45919bfcb77ef6eb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/ToggleComponentZone.cs using Guid(5fe39fdeebcc91a45919bfcb77ef6eb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5454dbc2525bbf9ed20ddc55498dcde') in 0.0158883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials
+  artifactKey: Guid(2ff960a718ffce640a94cc3755ea2f73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials using Guid(2ff960a718ffce640a94cc3755ea2f73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba3cdfdb67ac9c558fbe250e913faf5a') in 0.0148555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(7e4388dd4f8f02641b6052555abde66c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources using Guid(7e4388dd4f8f02641b6052555abde66c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3efdbd39306f74a5fe006fe9ae532884') in 0.0141914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/GRADE.mat
+  artifactKey: Guid(ff28fb1241078b744b0a60633371b60a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/GRADE.mat using Guid(ff28fb1241078b744b0a60633371b60a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e0b74ce9bed4f44c3ca505604f7fcc0') in 0.0266906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Modern_Bench Pack/Textures/Wood_Planks.png
+  artifactKey: Guid(45a5cdd5f49074bdcaf3e81d49506b67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Modern_Bench Pack/Textures/Wood_Planks.png using Guid(45a5cdd5f49074bdcaf3e81d49506b67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e9724dfcfe16076efc2033eb8946a81') in 0.025137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/treecolor.mat
+  artifactKey: Guid(a2bf31bcdcdeca941834ecc221d0fcd1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/treecolor.mat using Guid(a2bf31bcdcdeca941834ecc221d0fcd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5b87b88832e300aa874acde6dd5d091') in 0.0177361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets_FenceChained/models
+  artifactKey: Guid(344c3e2b536b80e479ae52ea447feab2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets_FenceChained/models using Guid(344c3e2b536b80e479ae52ea447feab2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78b522001fbfa3dd3cdc28e93324529d') in 0.0143641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerStyle.cs
+  artifactKey: Guid(18cb50a63ade4574ca3320c8680b9175) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/ALP8310_ControllerStyle.cs using Guid(18cb50a63ade4574ca3320c8680b9175) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ebd59ca836af4007f095bedf827c03e') in 0.0178489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/InfoTrigger.cs
+  artifactKey: Guid(2654435ed67484d4ab00f11b389463d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/InfoTrigger.cs using Guid(2654435ed67484d4ab00f11b389463d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17e61ad2e1862db3ad7cb36985d94ce8') in 0.0186872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Models
+  artifactKey: Guid(8465d1e1e6db9b54fb14529cab20c382) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Models using Guid(8465d1e1e6db9b54fb14529cab20c382) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '688a42d985e60d04d8ad0fc2d635b19b') in 0.014798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/chamine
+  artifactKey: Guid(62fbd65db0eb77b4793be86751441e53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures/chamine using Guid(62fbd65db0eb77b4793be86751441e53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c8d65e5a88c4189285d22c449117df2') in 0.0283379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress
+  artifactKey: Guid(96ed32c99d14bf34a86c871e9fd49ec3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress using Guid(96ed32c99d14bf34a86c871e9fd49ec3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c98c6c265a16fee1af2fc8b925c75e22') in 0.0209586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Bark_Color.tif
+  artifactKey: Guid(877e214aa51fdc743b16177e0438bc29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Bark_Color.tif using Guid(877e214aa51fdc743b16177e0438bc29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3be77cc60bb0af4589c21dc38cb9e415') in 0.0221458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines/Pine_C/Textures
+  artifactKey: Guid(98c997cc8599c96429c50fd0844f6d15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines/Pine_C/Textures using Guid(98c997cc8599c96429c50fd0844f6d15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09af8d5d2c4da352012bcbd07f2ca1d2') in 0.0158278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines/Pine_C/Materials/Pine_C.mat
+  artifactKey: Guid(c589a3eaae9e93d4a9f61a62726c6972) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines/Pine_C/Materials/Pine_C.mat using Guid(c589a3eaae9e93d4a9f61a62726c6972) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f35a6f57ae55304bc2553954e4411599') in 0.0472014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs
+  artifactKey: Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs using Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b52621ecc023d636e59ecc01dc6aac6') in 0.0167296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern_Bench Pack
+  artifactKey: Guid(7045b06c37f8a1e499dc370a8ea4ffef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Modern_Bench Pack using Guid(7045b06c37f8a1e499dc370a8ea4ffef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '630138c2d91beb922e09f6d8a574a18d') in 0.0138495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes
+  artifactKey: Guid(c1bb80bbae91cad41bfc8c9fb3d653d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes using Guid(c1bb80bbae91cad41bfc8c9fb3d653d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '039dffa8aca2b45f90d6faf0f3371c26') in 0.0137463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.mat
+  artifactKey: Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.mat using Guid(b141c8e4f6387ef45b13a68b10c88b7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed358984a4b576267badc84ff236d65d') in 0.0236941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TerrainDemoScene_URP/Scripts/TerrainTreeToggle.cs
+  artifactKey: Guid(2604d658e60cd9948ae5544d939ad153) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Scripts/TerrainTreeToggle.cs using Guid(2604d658e60cd9948ae5544d939ad153) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8298cafc1f2c20af3cd90f0470db60b') in 0.0144059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials/Conifer_Billboard.mat
+  artifactKey: Guid(807b0ad96d574a1469ca70ba065258a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials/Conifer_Billboard.mat using Guid(807b0ad96d574a1469ca70ba065258a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11d6e3a8dd349d19f8446afdf1618427') in 0.0309322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern_Bench Pack/Materials/Steel.mat
+  artifactKey: Guid(9356909c3b11a4d2798e8590ab2a3db1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Modern_Bench Pack/Materials/Steel.mat using Guid(9356909c3b11a4d2798e8590ab2a3db1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c38182b8448f6dd4c3e13252be05c61') in 0.0525955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor
+  artifactKey: Guid(cd62cd590f704134091c83678145e697) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller/Editor using Guid(cd62cd590f704134091c83678145e697) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '517229e6c3df5a4f417e117620819fdd') in 0.0152846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/asfalto/Road008A_2K-PNG/Road008A_2K-PNG_Displacement.png
+  artifactKey: Guid(acec4601f27893542be51c28c88ff778) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures/asfalto/Road008A_2K-PNG/Road008A_2K-PNG_Displacement.png using Guid(acec4601f27893542be51c28c88ff778) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69195684d398e717cb2c118e6e546959') in 0.0321072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials/Conifer_Cap.mat
+  artifactKey: Guid(792a237589906584cab08fca5ee836de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials/Conifer_Cap.mat using Guid(792a237589906584cab08fca5ee836de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '232c921c357ed82ec0b5e6ca327b9cfc') in 0.0221961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/DemoAssets/Scripts/IncrementUIText.cs
+  artifactKey: Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/DemoAssets/Scripts/IncrementUIText.cs using Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e80c39110bba40c967ae3be967f2a23') in 0.0144705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets
+  artifactKey: Guid(b26ee9af8b048934e948074b81f1bedc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets using Guid(b26ee9af8b048934e948074b81f1bedc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f93d99536f67249dbaf45b177f881e6b') in 0.0141198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/chamine/Bricks070_2K-PNG/Bricks070_2K-PNG_Displacement.png
+  artifactKey: Guid(0236b4dd392e74d4e9f4bb312eb1c585) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures/chamine/Bricks070_2K-PNG/Bricks070_2K-PNG_Displacement.png using Guid(0236b4dd392e74d4e9f4bb312eb1c585) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f2f02e6bb7f5c573a4e97b040c72a18') in 0.0262888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics
+  artifactKey: Guid(d0fd23b243dc564458722a9d6eea8bf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Skybox FREE/Panoramics using Guid(d0fd23b243dc564458722a9d6eea8bf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abc8fe3bf0ebccb0a824c81e0927337a') in 0.0158994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/MenuScript.cs
+  artifactKey: Guid(63cb8fa45751a4a4388764b08e99b24b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/MenuScript.cs using Guid(63cb8fa45751a4a4388764b08e99b24b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b49fdb5e965ced0efdef9c2aaaf8a0b') in 0.0141442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Global Lighting/Editor
+  artifactKey: Guid(178effaf408560645a01b384a46cfb4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Global Lighting/Editor using Guid(178effaf408560645a01b384a46cfb4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc587f52637eb960d69690bf94f98136') in 0.0150547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller
+  artifactKey: Guid(0f2bfb0415f144645b7a2a4a0204d2b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Controller using Guid(0f2bfb0415f144645b7a2a4a0204d2b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3dccef3ba64a755d75f189826595684') in 0.0137016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials/Conifer_Bark.mat
+  artifactKey: Guid(ec4c06a182765544895a679bdb5c4bcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Materials/Conifer_Bark.mat using Guid(ec4c06a182765544895a679bdb5c4bcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '568f9cbf0d1766ac577a6841c04fbf87') in 0.0262195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs
+  artifactKey: Guid(e766f86cb7d2461683eb37d8a971fb14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs using Guid(e766f86cb7d2461683eb37d8a971fb14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a788622e1d7bf5b84c814e3d09d1bbbf') in 0.0130531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/GazeInputManager.cs
+  artifactKey: Guid(6ef0e4723b64c884699a375196c13ac0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/GazeInputManager.cs using Guid(6ef0e4723b64c884699a375196c13ac0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c01afb340f1ecaad6723e2fc8938f852') in 0.0133431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts
+  artifactKey: Guid(b008116b73ff01f4db242c80e3be6674) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts using Guid(b008116b73ff01f4db242c80e3be6674) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '300f3933d2e05d906acd60caee92e56c') in 0.0125896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets_FenceChained/models/Materials/metal_fence-1.tga
+  artifactKey: Guid(752d7d5c2778f3a47b36be0aeb798dc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Assets_FenceChained/models/Materials/metal_fence-1.tga using Guid(752d7d5c2778f3a47b36be0aeb798dc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6ff401018c2f5bfce2ee3263ec02d36') in 0.0217195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines/Pine_C/Materials
+  artifactKey: Guid(00f0aa6d31eaff94ebdb4dc903697542) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines/Pine_C/Materials using Guid(00f0aa6d31eaff94ebdb4dc903697542) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8698fb14a5fd99fe085c1f9d96007644') in 0.0133285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/chamine.mat
+  artifactKey: Guid(235ea0485910bc14cbf8c52dfd3e0aff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Models/Materials/chamine.mat using Guid(235ea0485910bc14cbf8c52dfd3e0aff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73dc3f0fb04dd118693c1618a1c742d6') in 0.0191234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/RED.mat
+  artifactKey: Guid(78282124913a1044e8b0453ab9fdc2d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/RED.mat using Guid(78282124913a1044e8b0453ab9fdc2d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e0b6201a5d034bb5f19a8899506a988') in 0.0154389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Conifer_Normal.png
+  artifactKey: Guid(7b24d7997f7027e47b59fb9f777457d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Conifer_Normal.png using Guid(7b24d7997f7027e47b59fb9f777457d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc45f050705302c4a7a2f6cdca2dfe08') in 0.0254548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs
+  artifactKey: Guid(aa76fdce75cd8764fb76c431828e42bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs using Guid(aa76fdce75cd8764fb76c431828e42bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '630d3553240423a03204f052b0605f67') in 0.0163598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern_Bench Pack/Prefabs
+  artifactKey: Guid(ec2a7666fecb7734abb2ba01ede397ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Modern_Bench Pack/Prefabs using Guid(ec2a7666fecb7734abb2ba01ede397ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7afe23476b4cd15cb77e822a49b272d9') in 0.0134822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Confier_Bark_Extra.png
+  artifactKey: Guid(902e5a797d8e0264e9c9ac00621c406f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Confier_Bark_Extra.png using Guid(902e5a797d8e0264e9c9ac00621c406f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9c46c95a4932f0975b7cfc20e7e6657') in 0.0226856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Roof
+  artifactKey: Guid(3a55708d36867ee4792e249dc61203d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures/Roof using Guid(3a55708d36867ee4792e249dc61203d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9ae58e15305cc8313491b5c4be1959b') in 0.0167963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Global Lighting
+  artifactKey: Guid(9c3142f9d030e97488233db41815b0ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Global Lighting using Guid(9c3142f9d030e97488233db41815b0ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a28f2e57a0f2e00547b976a9fc02d429') in 0.0147695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees
+  artifactKey: Guid(5810eaddcd8870049ad3203a33020abd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees using Guid(5810eaddcd8870049ad3203a33020abd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcba35a955343d2a20d21664b26e79b9') in 0.0151706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Materials/Cypress_Forest_Desktop_Billboard.mat
+  artifactKey: Guid(6e96b44ff17a7de4a859752d4aa68e3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Materials/Cypress_Forest_Desktop_Billboard.mat using Guid(6e96b44ff17a7de4a859752d4aa68e3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7c1085c59924afbf87e1b009c386807') in 0.0335348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Confier_Bark_Color.png
+  artifactKey: Guid(1a963b442f079054d97b6543dd119481) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Confier_Bark_Color.png using Guid(1a963b442f079054d97b6543dd119481) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5ab3eec3b559b9b81fba4143b91343b') in 0.026599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Predio2Telhado.fbx
+  artifactKey: Guid(32166c1975804f84da9ea6e5a2031436) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Predio2Telhado.fbx using Guid(32166c1975804f84da9ea6e5a2031436) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d00fef234972d08f56d13aa9d189a35') in 0.0229275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/DemoAssets
+  artifactKey: Guid(567486e5f3c0903419e9102a1e70b25b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/DemoAssets using Guid(567486e5f3c0903419e9102a1e70b25b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f00d2fff40e2db2eeec5581d2896eb29') in 0.0130647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines
+  artifactKey: Guid(9428b91be5d39b34096f174ffbee13ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Pines using Guid(9428b91be5d39b34096f174ffbee13ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5242d23147ea849cb0d624e8d4756491') in 0.0123094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/GUI/Editor
+  artifactKey: Guid(db7bcb78cbd143f459ec519e791c800b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/GUI/Editor using Guid(db7bcb78cbd143f459ec519e791c800b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50bef4ba4c5302259c1d807663500786') in 0.0149116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern_Bench Pack/Materials/Concrete.mat
+  artifactKey: Guid(1e211062efaca4dc9afc5a58b849e554) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Modern_Bench Pack/Materials/Concrete.mat using Guid(1e211062efaca4dc9afc5a58b849e554) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4cf194f2f7712066394bc82cbaf5a7a') in 0.0158656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Conifer_Extra.png
+  artifactKey: Guid(edcd0e8c7fd488c4389ffd92c72e9c8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Conifer_Extra.png using Guid(edcd0e8c7fd488c4389ffd92c72e9c8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1b2444291e47f3beec3163352fa2d97') in 0.0257013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Cypress_Forest_Desktop_Billboard_Normal.tif
+  artifactKey: Guid(28bb358aea79dd84b9d2480b3bf62a87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Cypress_Forest_Desktop_Billboard_Normal.tif using Guid(28bb358aea79dd84b9d2480b3bf62a87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63c83ae8a0fa802f1253fa60739425e6') in 0.0303693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(2e25a184061b9af46aea6cf5ae032e6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(2e25a184061b9af46aea6cf5ae032e6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb4bc01a6b14d6cd22cf20dc135d54e9') in 0.0132477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Global Lighting/Editor/ALP8310_GlobalLightingWindow.cs
+  artifactKey: Guid(07e4e5b34daac5a44a3832e4ff902b20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE/Core/Scripts/Global Lighting/Editor/ALP8310_GlobalLightingWindow.cs using Guid(07e4e5b34daac5a44a3832e4ff902b20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '662c8f33a06c920205e4455f44c1e90c') in 0.0147373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Conifer_Color.png
+  artifactKey: Guid(80ec7e07223ddfa46b063d556e2d1d35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Conifer_Color.png using Guid(80ec7e07223ddfa46b063d556e2d1d35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9bce5912c067d79645deed491d0aa9e') in 0.0295419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TerrainDemoScene_URP/ShaderGraphs/SubGraphs
+  artifactKey: Guid(5ef8eebbdac73b045bae5bc8ba665250) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/ShaderGraphs/SubGraphs using Guid(5ef8eebbdac73b045bae5bc8ba665250) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43aa1c23de4f702ec14c6a503916cd83') in 0.013405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Cypress_Forest_Desktop_Billboard_Color.tif
+  artifactKey: Guid(9db7c8b514cd7234e97656d7a26c7b97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Textures/Cypress_Forest_Desktop_Billboard_Color.tif using Guid(9db7c8b514cd7234e97656d7a26c7b97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e319007e63902c0c0663640ddf9b6e8') in 0.0276105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/asfalto/Road008A_2K-PNG
+  artifactKey: Guid(df1f8a9a93cab694d88fbaeba3234349) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Textures/asfalto/Road008A_2K-PNG using Guid(df1f8a9a93cab694d88fbaeba3234349) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '723590efa366fc7be734e96356bf2dbe') in 0.0136317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Materials/Cypress_Bark.mat
+  artifactKey: Guid(f995df3418732fb4ea23b356c02e25fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Materials/Cypress_Bark.mat using Guid(f995df3418732fb4ea23b356c02e25fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cd762b2ecc81e48b5f33c2638bef9c8') in 0.0259744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Predio1Telhado.fbx
+  artifactKey: Guid(dcc46626167b0274e9393fb973e4837f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Predio1Telhado.fbx using Guid(dcc46626167b0274e9393fb973e4837f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f95e30869846105ef326688be3d08d4') in 0.0267653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Confier_Cap_Normal.png
+  artifactKey: Guid(dc3a3aca296e4a54c88f94434651daa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Conifer/Textures/Confier_Cap_Normal.png using Guid(dc3a3aca296e4a54c88f94434651daa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f2acc112e29b0ae0bcbb7044bdf0dc2') in 0.0238604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003
+  artifactKey: Guid(dfaff353597f66e42b81837c83a731e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003 using Guid(dfaff353597f66e42b81837c83a731e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '871cdaf1091528d12a9b139d4e73a741') in 0.0147608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ALP_Assets/Big Oak Tree FREE
+  artifactKey: Guid(3d37d489bea924f4d86a81684023186e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALP_Assets/Big Oak Tree FREE using Guid(3d37d489bea924f4d86a81684023186e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c2fb6952df282da35eb6f841dacf2aa') in 0.0151058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Chamine1.fbx
+  artifactKey: Guid(0765f5a28b338824da03e44fd456ad9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Chamine1.fbx using Guid(0765f5a28b338824da03e44fd456ad9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78aabb10d646f9c888033753ddd1d3d0') in 0.0251686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(ae274799c3edcac48b17f41ab335ab27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/MainScene.unity using Guid(ae274799c3edcac48b17f41ab335ab27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '414233cba666dc5e3b2733b00c3eab0d') in 0.0219252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Cypress_Forest_Desktop.st
+  artifactKey: Guid(b9c14b320122db54f928119ed33feac8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TerrainDemoScene_URP/Prefabs/Trees/Cypress/Cypress_Forest_Desktop.st using Guid(b9c14b320122db54f928119ed33feac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e422ceef02cac30a00ed6ac046885a04') in 0.0348386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/XRPokeFollowAffordance.cs
+  artifactKey: Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.4.1/Starter Assets/Scripts/XRPokeFollowAffordance.cs using Guid(07b3638c2f5db5b479ff24c2859713d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b626e46047a4ce16ce5a092981c0c61b') in 0.0139861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
